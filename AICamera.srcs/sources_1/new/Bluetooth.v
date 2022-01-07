@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-// 蓝牙接受，第0位表示是否进入传输状态，表示第1位表示显示颜色/黑白，第2位表示传输颜色/黑白，第3位表示传输是否自动
+// 蓝牙接收，第0位表示是否进入传输状态，表示第1位表示显示颜色/黑白，第2位表示传输颜色/黑白，第3位表示传输是否自动
 module Bluetooth(input clk_bluetooth,
                     input rst,
                     input data_bluetooth,

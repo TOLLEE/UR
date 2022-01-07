@@ -2,12 +2,12 @@
 # Vivado v2021.2 (64-bit)
 # SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
 # IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
-# Start of session at: Sat Jan  1 13:06:29 2022
-# Process ID: 3540
-# Current directory: D:/Program/Vivido/AICamera/AICamera.runs/impl_1
-# Command line: vivado.exe -log AICamera.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source AICamera.tcl -notrace
-# Log file: D:/Program/Vivido/AICamera/AICamera.runs/impl_1/AICamera.vdi
-# Journal file: D:/Program/Vivido/AICamera/AICamera.runs/impl_1\vivado.jou
+# Start of session at: Thu Jan  6 22:26:04 2022
+# Process ID: 10772
+# Current directory: D:/GitHub/AICamera/AICamera/AICamera.runs/impl_1
+# Command line: vivado.exe -log AICameraTop.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source AICameraTop.tcl -notrace
+# Log file: D:/GitHub/AICamera/AICamera/AICamera.runs/impl_1/AICameraTop.vdi
+# Journal file: D:/GitHub/AICamera/AICamera/AICamera.runs/impl_1\vivado.jou
 # Running On: Vozeo, OS: Windows, CPU Frequency: 2895 MHz, CPU Physical cores: 16, Host memory: 16555 MB
 #-----------------------------------------------------------
-source AICamera.tcl -notrace
+source AICameraTop.tcl -notrace

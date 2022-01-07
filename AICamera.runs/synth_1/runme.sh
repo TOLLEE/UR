@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/Program/Vivido/AICamera/AICamera.runs/synth_1'
+HD_PWD='D:/GitHub/AICamera/AICamera/AICamera.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log AICamera.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source AICamera.tcl
+EAStep vivado -log AICameraTop.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source AICameraTop.tcl

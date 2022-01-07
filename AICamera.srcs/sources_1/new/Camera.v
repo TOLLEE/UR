@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module Camera(input clk,
+module CameraTop(input clk,
                   input rst,
                   output sio_c,
                   inout sio_d,

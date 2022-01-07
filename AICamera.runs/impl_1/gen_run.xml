@@ -1,80 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1641013486">
-  <File Type="ROUTE-PWR" Name="AICamera_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="AICamera.tcl"/>
-  <File Type="BITSTR-MMI" Name="AICamera.mmi"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="AICamera_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="AICamera_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="AICamera_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="AICamera_reports.tcl"/>
-  <File Type="OPT-TIMING" Name="AICamera_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="AICamera_opt.dcp"/>
-  <File Type="OPT-DRC" Name="AICamera_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="AICamera.hwdef"/>
-  <File Type="PWROPT-DCP" Name="AICamera_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="AICamera_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="AICamera_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="AICamera_placed.dcp"/>
-  <File Type="PLACE-IO" Name="AICamera_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="AICamera_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="AICamera_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="AICamera_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="AICamera_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="AICamera_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="AICamera_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BIN" Name="AICamera.bin"/>
-  <File Type="PLACE-TIMING" Name="AICamera_timing_summary_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="AICamera_postplace_pwropt.dcp"/>
-  <File Type="BITSTR-MSK" Name="AICamera.msk"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="AICamera_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="AICamera_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="AICamera_drc_physopted.rpt"/>
-  <File Type="BITSTR-RBT" Name="AICamera.rbt"/>
-  <File Type="PHYSOPT-TIMING" Name="AICamera_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="AICamera_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="AICamera_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="AICamera_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="AICamera_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="AICamera_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="AICamera_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="AICamera_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="AICamera_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="AICamera_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="AICamera_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="AICamera_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="AICamera_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="AICamera_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="AICamera_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="AICamera_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="AICamera_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="AICamera_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="AICamera_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="AICamera_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="AICamera_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="AICamera_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="AICamera_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="AICamera_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="AICamera_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="AICamera_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="AICamera_bus_skew_postroute_physopted.rpt"/>
-  <File Type="BG-BIT" Name="AICamera.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="AICamera_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="AICamera_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-NKY" Name="AICamera.nky"/>
-  <File Type="BITSTR-BMM" Name="AICamera_bd.bmm"/>
-  <File Type="PDI-FILE" Name="AICamera.pdi"/>
-  <File Type="RCFI_FILE" Name="AICamera.rcfi"/>
-  <File Type="CFI_FILE" Name="AICamera.cfi"/>
-  <File Type="RNPI_FILE" Name="AICamera.rnpi"/>
-  <File Type="NPI_FILE" Name="AICamera.npi"/>
-  <File Type="RBD_FILE" Name="AICamera.rbd"/>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1641479059">
+  <File Type="ROUTE-PWR" Name="AICameraTop_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="AICameraTop.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="AICameraTop_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="AICameraTop_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="AICameraTop.msk"/>
+  <File Type="ROUTE-CLK" Name="AICameraTop_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="AICameraTop.vdi"/>
+  <File Type="BG-BIT" Name="AICameraTop.bit"/>
+  <File Type="BG-DRC" Name="AICameraTop.drc"/>
+  <File Type="BG-BGN" Name="AICameraTop.bgn"/>
+  <File Type="BG-BIN" Name="AICameraTop.bin"/>
+  <File Type="BITSTR-RBT" Name="AICameraTop.rbt"/>
+  <File Type="BITSTR-NKY" Name="AICameraTop.nky"/>
+  <File Type="BITSTR-BMM" Name="AICameraTop_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="AICameraTop.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="AICameraTop_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="AICameraTop.sysdef"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="AICamera.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="AICamera.sysdef"/>
-  <File Type="BG-BGN" Name="AICamera.bgn"/>
-  <File Type="BG-DRC" Name="AICamera.drc"/>
-  <File Type="RDI-RDI" Name="AICamera.vdi"/>
+  <File Type="BITSTR-LTX" Name="AICameraTop.ltx"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="AICameraTop_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="AICameraTop.hwdef"/>
+  <File Type="PLACE-IO" Name="AICameraTop_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="AICameraTop_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="AICameraTop_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="AICameraTop_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="AICameraTop_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="AICameraTop_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="AICameraTop_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="AICameraTop_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="AICameraTop_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="AICameraTop_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="AICameraTop_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="AICameraTop_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="AICameraTop_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="AICameraTop_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="AICameraTop_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="AICameraTop_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="AICameraTop_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="AICameraTop_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="AICameraTop_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="AICameraTop_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="AICameraTop_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="AICameraTop_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="AICameraTop_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="AICameraTop_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="AICameraTop_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="AICameraTop_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="AICameraTop_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="AICameraTop_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="AICameraTop_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="AICameraTop.pdi"/>
+  <File Type="RCFI_FILE" Name="AICameraTop.rcfi"/>
+  <File Type="CFI_FILE" Name="AICameraTop.cfi"/>
+  <File Type="RNPI_FILE" Name="AICameraTop.rnpi"/>
+  <File Type="NPI_FILE" Name="AICameraTop.npi"/>
+  <File Type="RBD_FILE" Name="AICameraTop.rbd"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci">
@@ -140,6 +122,27 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/UartGetData.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/UartIn.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/UartOut.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/Vga.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -156,7 +159,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="AICamera"/>
+      <Option Name="TopModule" Val="AICameraTop"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
@@ -182,6 +185,14 @@
         <Attr Name="AutoDcp" Val="1"/>
       </FileInfo>
     </File>
+    <File Path="$PPRDIR/../../../Program/Vivido/AICamera/AICamera.srcs/utils_1/imports/synth_1/AICamera.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
@@ -197,5 +208,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>

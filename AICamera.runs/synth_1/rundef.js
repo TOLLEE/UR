@@ -23,7 +23,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log AICamera.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source AICamera.tcl" );
+         "-log AICameraTop.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source AICameraTop.tcl" );
 
 
 

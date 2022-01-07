@@ -10,9 +10,6 @@ module CameraSccb(input clk,
                       input [7:0] data_addr,     // ¼Ä´æÆ÷µØÖ·
                       input [7:0] data_in);      // ¼Ä´æÆ÷Êı¾İ
 
-    //reg [9:0] time_1  = 10'b1000000000;
-    //reg [11:0] time_2 = 12'b100000000000;
-
     reg [3:0] now_state   = 0;
     reg [3:0] next_state  = 0;
     reg [16:0] wait_time  = 0;
